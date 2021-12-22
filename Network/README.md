@@ -6,6 +6,7 @@
 **Contents**
 - [Network](#network)
 - [Packet](#packet)
+- [LAN/WAN](#lanwan)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
@@ -14,7 +15,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/network_1.jpg'>
+    <img src='./images/network_1.png'>
 </div>
 <br>
 
@@ -25,12 +26,45 @@
 
 <br>
 <div align="center">
-    <img src='./images/packet_1.jpg'>
+    <img src='./images/packet_1.png'>
 </div>
 <br>
 
 - 네트워크를 통해 전송되는 데이터의 작은 조각이다.
 - 데이터가 클 경우 네트워크 대역폭을 많이 차지하기 때문에 다른 패킷의 흐름을 막을 수 있어 패킷으로 분할한다.
+
+## LAN/WAN
+
+<br>
+<div align="center">
+    <img src='./images/lan_1.jpg'>
+</div>
+<br>
+
+- LAN(Local Area Network)은 근거리 통신망이다.
+- LAN은 건물 안이나 특정 지역을 범위로 하는 네트워크로, 사무실 등 지리적으로 제한된 곳에서 연결할 수 있는 네트워크이다.
+- LAN은 WAN 보다 범위가 좁기 때문에 비교적 속도가 빠르며, 오류가 적다.
+
+<br>
+<div align="center">
+    <img src='./images/lan_2.jpg'>
+</div>
+<br>
+
+- 회사에서는 영역별로 스위치, 라우터 등으로 구분하여 랜을 구성한다.
+- DMZ는 서버를 외부에 공개하기 위한 네트워크 영역으로, 보통 웹 서버, 메일 서버, DNS 서버를 공개한다.
+- 사내 또는 데이터 센터에 서버를 두고 운용하는 것을 온프레미스(on-premise)라고 한다. 이는 클라우드와 대비된다.
+
+<br>
+<div align="center">
+    <img src='./images/wan_1.jpg'>
+</div>
+<br>
+
+- WAN(Wide Area Network)는 광대역 통신망이다.
+- WAN은 지리적으로 넓은 범위에 구축된 네트워크로, ISP(Internet Service Provider)가 제공하는 서비스에 의해 구축된다.
+- ISP는 인터넷 서비스 제공자가 제공하는 서비스로 KT, U+, SK브로드밴드 등이 있다.
+- WAN은 LAN보다 범위가 넓기 때문에 비교적 속도가 느리며, 오류가 많다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
