@@ -4,10 +4,26 @@
 
 
 **Contents**
+- [Network](#network)
+- [Packet](#packet)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
 ---
+## Network
+
+<br>
+<div align="center">
+    <img src='./images/network_1.jpg'>
+</div>
+<br>
+
+- 컴퓨터 네트워크는 노드들이 자원을 공유할 수 있게 하는 디지털 전기 통신망이다.
+- 분산되어 있는 컴퓨터를 통신망으로 연결한 것으로 서로 데이터를 교환한다.
+
+## Packet
+
+
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
 - 네트워크 크기에 따라 32비트의 IP 주소를 네트워크 ID와 호스트 ID로 bit를 조정하여 IP 주소를 A ~ E클래스로 구분할 수 있다.
@@ -17,7 +33,6 @@
     <img src='./images/ip_1.jpg'>
 </div>
 <br>
-
 
 - A 클래스는 8비트의 네트워크 ID와 24비트의 호스트 ID로 구성된다.
 - A 클래스의 1옥텟(8비트)의 범위는 2진수로 00000001 ~ 01111111이며 10진수로 변환하면 1 ~ 127이다. 2~4 옥텟의 범위는 0 ~ 255의 범위를 가지고 전체 범위는 1.0.0.0 ~ 127.255.255.255 이다. 
