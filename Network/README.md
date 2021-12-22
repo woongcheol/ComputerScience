@@ -7,6 +7,12 @@
 - [Network](#network)
 - [Packet](#packet)
 - [LAN/WAN](#lanwan)
+- [Protocol](#protocol)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
@@ -37,7 +43,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/lan_1.jpg'>
+    <img src='./images/lan_1.png'>
 </div>
 <br>
 
@@ -47,7 +53,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/lan_2.jpg'>
+    <img src='./images/lan_2.png'>
 </div>
 <br>
 
@@ -57,7 +63,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/wan_1.jpg'>
+    <img src='./images/wan_1.png'>
 </div>
 <br>
 
@@ -65,6 +71,66 @@
 - WAN은 지리적으로 넓은 범위에 구축된 네트워크로, ISP(Internet Service Provider)가 제공하는 서비스에 의해 구축된다.
 - ISP는 인터넷 서비스 제공자가 제공하는 서비스로 KT, U+, SK브로드밴드 등이 있다.
 - WAN은 LAN보다 범위가 넓기 때문에 비교적 속도가 느리며, 오류가 많다.
+
+## Protocol
+
+<br>
+<div align="center">
+    <img src='./images/protocol_1.png'>
+</div>
+<br>
+
+- 프로토콜은 통신을 위한 규칙이다.
+- 이를 위해 OSI 모델, TCP/IP 모델 등 네트워크 객체들간의 규격, 순서들을 정의한다.
+
+<br>
+<div align="center">
+    <img src='./images/protocol_2.jpg'>
+</div>
+<br>
+
+<br>
+<div align="center">
+    <img src='./images/protocol_3.jpg'>
+</div>
+<br>
+
+- OSI 모델은 국제표준화기구 ISO에서 제정한 표준 규격이다.
+- 이를 통해 데이터 송수신이 이루어지고, 이는 7계층으로 나눠서 진행된다.
+- 송신은 상위 계층에서 하위 계층으로 데이터를 전달한다.
+- 수신은 하위 계층에서 상위 계층으로 전달된 데이터를 받게 된다.
+
+<br>
+<div align="center">
+    <img src='./images/protocol_4.png'>
+</div>
+<br>
+
+- TCP/IP 모델은 4계층으로 구성된다.
+- OSI 모델과 구성은 비슷하나 응용 계층, 전송 계층, 인터넷 계층, 네트워크 접속 계층으로 구성된다.
+
+<br>
+<div align="center">
+    <img src='./images/protocol_5.png'>
+</div>
+<br>
+
+- 데이터 송신시 캡슐화가, 수신시 역캡슐화가 이루어진다.
+- 데이터 전달 시 필요한 정보를 추가하는데 이를 헤더라고 한다.
+- 캡슐화란, 데이터 전송시 헤더를 붙여나가는 것을 의미한다.
+- 역캡슐화란, 데이터 수신시 붙여진 헤더를 제거하는 것을 의미한다. 
+
+<br>
+<div align="center">
+    <img src='./images/protocol_6.png'>
+</div>
+<br>
+
+- 전송 계층에서는 신뢰할 수 있는 통신을 구현하기 위한 헤더를 붙인다.
+- 네트워크 계층에서는 다른 네트워크와 통신하기 위한 헤더를 붙인다.
+- 데이터 링크 계층에서는 물리적 통신 채널을 연결하기 위한 헤더와 트레일러를 붙인다.
+- 여기서 트레일러는 데이터를 전달할 때 데이터의 마지막에 추가하는 정보를 의미한다.
+- 마지막 물리 계층에서는 데이터 링크 계층에서 구성된 데이터를 전기 신호로 변환해서 수신측에 전달한다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
