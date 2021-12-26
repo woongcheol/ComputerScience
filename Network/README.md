@@ -8,7 +8,7 @@
 - [Packet](#packet)
 - [LAN/WAN](#lanwan)
 - [Protocol](#protocol)
-- [](#)
+- [Physical Layer](#physical-layer)
 - [](#)
 - [](#)
 - [](#)
@@ -76,7 +76,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/protocol_1.png'>
+    <img src='./images/protocol_1.jpg'>
 </div>
 <br>
 
@@ -85,7 +85,7 @@
 
 <br>
 <div align="center">
-    <img src='./images/protocol_2.jpg'>
+    <img src='./images/protocol_2.png'>
 </div>
 <br>
 
@@ -132,7 +132,7 @@
 - 여기서 트레일러는 데이터를 전달할 때 데이터의 마지막에 추가하는 정보를 의미한다.
 - 마지막 물리 계층에서는 데이터 링크 계층에서 구성된 데이터를 전기 신호로 변환해서 수신측에 전달한다.
 
-## 물리 계층
+## Physical Layer
 <br>
 <div align="center">
     <img src='./images/protocol_7.png'>
@@ -145,6 +145,22 @@
 - 물결 모양의 신호를 아날로그 신호라고 한다. 이는 전화 회선이나 라디오 방송에 사용된다.
 - 막대 모양의 신호를 디지털 신호라고 한다.
 - 아날로그와 디지털 신호는 랜 카드를 통해 변환되어 통신이 이루어진다.
+
+## Cable
+
+<br>
+<div align="center">
+    <img src='./images/protocol_8.png'>
+</div>
+<br>
+
+<!-- https://linkhub.tistory.com/85 -->
+
+- 전송 매체는 데이터가 흐르는 물리적인 선로를 의미한다. 이는 유선과 무선으로 구분된다.
+- 유선에는 트위스트 페어 케이블과 광케이블 등이 있고, 무선에는 라디오파, 마이크로파, 적외선 등이 있다.
+- 트위스트 페어 케이블의 종류에는 UTP, STP 케이블로 구성된다.
+- UTP 케이블은 실드로 보호되어 있지 않아 노이즈의 영향을 받기 쉽지만 저렴하다.
+- STP 케이블은 실드로 보호되어 있어 노이즈의 영향을 적게 받지만 비싸기 때문에 보편적으로 사용하지 않는다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
