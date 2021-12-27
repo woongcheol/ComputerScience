@@ -14,6 +14,8 @@
 - [MAC Address](#mac-address)
 - [Switch](#switch)
 - [Duplex](#duplex)
+- [Router](#router)
+- [Internet Protocol](#internet-protocol)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
@@ -203,6 +205,8 @@
 </div>
 <br>
 
+<!-- https://velog.io/@aksmf1442/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-4%EC%9E%A5%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A7%81%ED%81%AC-%EA%B3%84%EC%B8%B5-%EB%9E%9C%EC%97%90%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%86%A1%ED%95%98%EA%B8%B0 -->
+
 - 이더넷은 케이블의 종류나 통신 속도에 따라 다양한 규격으로 분류된다.
 - 규격에서 10은 통신속도(Mbps), BASE는 전송 방식, T는 케이블 종류를 나타낸다.
 
@@ -226,6 +230,22 @@
 - 전이중 통신 방식은 동시에 데이터 송수신을 하는 방식이고, 반이중 통신 방식은 회선 하나로 송신과 수신을 번갈아하는 방식이다.
 - 허브는 회선 하나로 충돌하지만, 스위치는 회선이 두개로 구성되어 충돌이 발생하지 않아 전이중 통신 방식으로 데이터를 주고받는다.
 - 허브에서 충돌이 발생하게 영향이 미치는 범위를 충돌 도메인이라고 한다.
+
+## Router
+- Router는 네트워크 계층에서 네트워크 간의 통신을 가능하게 하는 네트워크 장비다.
+- 이를 통해 인터넷 환경에서 IP 주소로 데이터를 보낼 수 있게 된다.
+- 데이터를 보내는 과정에서 어떤 경로로 데이터를 보낼지 결정하는 것을 라우팅이라 하고, 라우팅 테이블을 통해 경로 정보를 등록 및 관리한다.
+
+## Internet Protocol
+
+<br>
+<div align="center">
+    <img src='./images/internet protocol_1.png'>
+</div>
+<br>
+
+- 네트워크 계층에서는 캡슐화할 때 IP 헤더를 붙인다.
+- 이렇게 만들어진 것을 IP 패킷이라 한다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
