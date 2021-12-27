@@ -13,6 +13,7 @@
 - [Ethernet](#ethernet)
 - [MAC Address](#mac-address)
 - [Switch](#switch)
+- [Duplex](#duplex)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
@@ -203,6 +204,18 @@
 ## Switch
 - 스위치는 데이터 링크 계층에서 동작한다.
 - 스위치 내부에는 MAC 주소 테이블이 있고, 테이블에는 데이터 베이스로, 스위치 포트 번호와 해당 포트에 연결되어 있는 MAC 주소가 등록된다.
+
+## Duplex
+
+<br>
+<div align="center">
+    <img src='./images/duplex_1.png'>
+</div>
+<br>
+
+- 전이중 통신 방식은 동시에 데이터 송수신을 하는 방식이고, 반이중 통신 방식은 회선 하나로 송신과 수신을 번갈아하는 방식이다.
+- 허브는 회선 하나로 충돌하지만, 스위치는 회선이 두개로 구성되어 충돌이 발생하지 않아 전이중 통신 방식으로 데이터를 주고받는다.
+- 허브에서 충돌이 발생하게 영향이 미치는 범위를 충돌 도메인이라고 한다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
