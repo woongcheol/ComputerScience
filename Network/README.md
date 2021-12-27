@@ -12,7 +12,7 @@
 - [Cable](#cable)
 - [Ethernet](#ethernet)
 - [MAC Address](#mac-address)
-- [](#)
+- [Switch](#switch)
 - [IP Address](#ip-address)
 - [Network/Broadcast Address](#networkbroadcast-address)
 - [Subnet](#subnet)
@@ -199,6 +199,10 @@
 - 랜 카드에는 MAC 주소가 있다. 제조할 때 새겨지는 물리 주소로 전 세계 유일 번호로 할당된다.
 - MAC 주소는 48비트 숫자로 구성되고 제조사 번호 및 일련번호로 정해진다.
 - 이더넷 헤더에서 MAC 주소가 붙어 통신이 이루어진다.
+
+## Switch
+- 스위치는 데이터 링크 계층에서 동작한다.
+- 스위치 내부에는 MAC 주소 테이블이 있고, 테이블에는 데이터 베이스로, 스위치 포트 번호와 해당 포트에 연결되어 있는 MAC 주소가 등록된다.
 
 ## IP Address
 - IP 주소는 네트워크의 규모에 따라 A ~ E 클래스로 나누어져 있으며 일반적으로 A ~ C클래스를 사용한다.
